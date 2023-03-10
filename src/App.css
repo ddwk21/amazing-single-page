@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
 .App {
   text-align: center;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .App-logo {
@@ -45,6 +49,7 @@
   color: black;
   width: 100vw;
   height: 100vh;
+  font-size: 150px;
 
   transition: 1s;
 }
@@ -59,6 +64,44 @@
               0px 0px 10px 30px rgb(0, 0, 0);
   position: absolute;
   z-index: 5;
+}
+
+.meParent{
+  background-color: black;
+  width: 100vw;
+  height: fit-content;
+  
+
+}
+
+.meDiv{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-size: 20px;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.introColumn{
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 10%;
+  height: 100%;
+}
+
+
+
+.photo{
+  border-radius: 50%;
+  width:30vw;
+  height:30vw;
+  object-fit:cover;
+  box-shadow:  0px 0px 20px 10px rgba(0, 0, 0, 0.541) inset;
 }
 
 
